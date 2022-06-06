@@ -11,7 +11,7 @@ Python code instructions:
 The script is run on google colab.
 The json file is in index-text format as it is concise and includes the essential information for this analysis. 
 The library used for sentiment analysis is textblob, which is popular for NLP analysis. 
-crawl() is the function used to scrape html info from https://www.aljazeera.com/where/mozambique/
+crawl() is the function used to scrape html info from https://www.aljazeera.com/where/mozambique/.
 parse() is the function used to extract the urls for the latest urls from the website https://www.aljazeera.com/where/mozambique/. 
 collect_and_save_to_json() is the function used to capture the information from urls for the latest 10 news article in json format,save them , and extract all the text information from the 10 latest news articles.
 sentiment_analysis() is the function used to calculate the sentiment for each article. 
